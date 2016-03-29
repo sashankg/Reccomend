@@ -1,0 +1,31 @@
+{
+  "name": "reccomend",
+  "version": "1.0.0",
+  "description": "Reccomend movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "enclave",
+    "enclave-build": "node node_modules/enclave/src/build.js",
+    "enclave-eject": "node node_modules/enclave/src/eject/index.js",
+    "test": "mocha --compilers js:babel-register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashankg/Reccomend.git"
+  },
+  "author": "Sashank Gogula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashankg/Reccomend/issues"
+  },
+  "homepage": "https://github.com/sashankg/Reccomend#readme",
+  "dependencies": {
+    "enclave": "^0.9.3",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-register": "^6.7.2"
+  }
+}
